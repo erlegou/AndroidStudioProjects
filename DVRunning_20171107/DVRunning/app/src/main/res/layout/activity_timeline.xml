@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.jieli.stream.player.ui.lib.VideoView
+        android:id="@+id/mjpeg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.jieli.stream.player.ui.lib.TLView
+        android:id="@+id/scalePanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" />
+
+    <View
+        android:id="@+id/touch_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="100dp"/>
+
+    <ImageButton
+        android:id="@+id/interception"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@mipmap/ic_interception" />
+
+    <ImageButton
+        android:id="@+id/download"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:src="@mipmap/ic_download"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/play_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/interception"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@mipmap/ic_play" />
+
+
+    <LinearLayout
+        android:id="@+id/ff_layout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/download"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/fast_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_circle"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_smaller" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ff_layout"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/ff_revert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_circle"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_smaller" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+</RelativeLayout>

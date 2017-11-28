@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string-array name="operation_list">-->
+        <!--<item>@string/delete_file</item>-->
+        <!--<item>@string/rename_file</item>-->
+        <!--<item>@string/download_file</item>-->
+        <!--<item>@string/upload_file</item>-->
+    <!--</string-array>-->
+
+    <string-array name="camera_list">
+        <item>@string/video_mode</item>
+        <item>@string/photo_mode</item>
+    </string-array>
+
+    <string-array name="system_changes_list">
+        <item>@string/modify_wifi_name</item>
+        <item>@string/modify_wifi_pwd</item>
+        <item>@string/format_sdcard</item>
+        <item>@string/reset_device</item>
+        <item>@string/check_for_update</item>
+        <item>@string/firmware_upgrade</item>
+        <item>@string/clear_cache</item>
+        <item>@string/version_info</item>
+        <item>@string/storage_url</item>
+    </string-array>
+
+    <string-array name="browse_list">
+        <item>@string/gallery</item>
+        <item>@string/video_mode</item>
+    </string-array>
+
+    <string-array name="rts_play_mode">
+        <item>@string/rts_mode_fluency</item>
+        <item>@string/rts_mode_sd</item>
+        <item>@string/rts_mode_hd</item>
+    </string-array>
+
+    <string-array name="local_browse_list">
+        <item>@string/gallery</item>
+        <item>@string/video_mode</item>
+        <item>@string/record_mode</item>
+    </string-array>
+</resources>

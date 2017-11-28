@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.jieli.stream.player.ui.fragment.DeviceBrowseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/device_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:id="@+id/mode_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/gallery_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/gallery"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/video_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:text="@string/video_mode"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/chose_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mode_layout"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:lines="1"
+            android:gravity="center"
+            android:textSize="@dimen/text_small"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+        <com.jieli.stream.player.ui.lib.RefreshListView
+            android:id="@+id/dev_brows_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/device_top_layout"
+            android:layout_gravity="center"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:divider="@android:color/darker_gray"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+</RelativeLayout>

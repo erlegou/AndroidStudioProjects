@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">HuNuoUAV</string>
+
+    <string name="button_play">Play</string>
+
+    <!--Pager titles-->
+    <string name="photo_mode">Photo</string>
+    <string name="video_mode">Video</string>
+    <string name="settings">Settings</string>
+
+    <!-- Dialog-->
+    <string name="return_back">Return</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="dialog_tip">Tip</string>
+    <string name="whether_exit_app">Are you sure to exit now?</string>
+    <string name="wifi_is_disable">Please enable Wi-Fi.</string>
+    <string name="whether_stop_recording">Are you sure to stop recording?</string>
+
+    <!--Socket error-->
+    <string name="connect_failed">Connect failed</string>
+    <string name="connect_network_failure">Please check whether connected to the right network</string>
+    <string name="connection_timeout">Connection timeout, please check the network and reconnect</string>
+    <string name="device_is_disabled_wifi">Device is disable Wi-Fi</string>
+    <string name="offline_browse">offline browsing</string>
+
+    <!-- Operation to FTP server-->
+    <string name="delete_file">delete</string>
+    <string name="rename_file">rename</string>
+    <string name="download_file">download</string>
+    <string name="upload_file">upload</string>
+    <string name="operation_back">back</string>
+    <string name="operation_choice">select</string>
+    <string name="operation">Operation</string>
+    <string name="gallery">gallery</string>
+    <string name="selected">selected</string>
+    <string name="separator">/</string>
+    <string name="files">files</string>
+    <string name="operation_cancel">cancel</string>
+    <string name="loading_data">downloading,please wait&#8230;</string>
+    <string name="down_load_thumb">Update interface，please wait&#8230;</string>
+    <string name="notify_title">notify</string>
+    <string name="notify_context">File does not exist locally, do you need to view online?</string>
+    <string name="operation_ok">sure</string>
+    <string name="ftp_err_tip">FTP error, the need to connect FTP</string>
+    <string name="browse_file_err">File does not exist, you need to download first.</string>
+    <string name="open_file_err">Could not open the file</string>
+    <string name="all_select">ALL</string>
+    <string name="unprotect">unprotect</string>
+    <string name="modify_protection">Increase protection</string>
+    <string name="download_file_tip">Do you want to download the file?</string>
+    <string name="record_mode">Record</string>
+
+
+    <!-- SDCard status-->
+    <string name="sdcard_online">SD Card online</string>
+    <string name="sdcard_offline">SD Card offline</string>
+    <string name="no_card_record_tip">SD card is not online, you still need to continue recording it?</string>
+    <string name="sdcard_error">SD Card is offline or it is full.</string>
+    <string name="please_wait">Please wait</string>
+
+    <!-- FTP client status-->
+    <string name="login_info_err">Login info error!</string>
+    <string name="ftp_client_exception">FTPClient error!</string>
+    <string name="connect_ftp_success">Connection ftp success!</string>
+    <string name="connect_ftp_failed">Connection failed!</string>
+    <string name="ftp_socket_err">Network connection failed</string>
+    <string name="open_dir_err">Open failed!</string>
+    <string name="upload_file_success">Upload file success!</string>
+    <string name="upload_file_failed">Upload file failed!</string>
+    <string name="delete_file_success">Delete file success!</string>
+    <string name="delete_file_failed">Delete file failed!</string>
+    <string name="rename_success">Rename success!</string>
+    <string name="rename_failed">Rename failed!</string>
+    <string name="download_file_err">Download file error!</string>
+    <string name="download_file_success">File download success!</string>
+    <string name="download_file_failed">File download failed!</string>
+    <string name="download_file_downloaded">File is downloaded.</string>
+    <string name="download_task_abort">File download was aborted!</string>
+    <string name="download_task_start">File download start!</string>
+    <string name="download_thumb_start">Thumb download start!</string>
+    <string name="download_thumb_success">Thumb download success!</string>
+    <string name="download_thumb_failed">Thumb download failed!</string>
+    <string name="delete_local_file_success">Delete local file success!</string>
+    <string name="delete_local_file_failed">Delete local file failed!</string>
+    <string name="file_no_exist">File does not exist!</string>
+    <string name="file_download">File download</string>
+    <string name="phone_space_inefficient">Your phone storage space is insufficient!</string>
+    <string name="phone_space_less">Your mobile phone storage space is less than 100M!</string>
+    <string name="ftp_data_null">File data does not exist!</string>
+    <string name="deleting_files">Deleting files&#8230;</string>
+    <string name="device_browse_mode">Device</string>
+    <string name="local_browse_mode">Local</string>
+    <string name="find_file_err">Cannot find the specified file</string>
+    <string name="get_file_err">Error reading file contents</string>
+    <string name="incomplete_download">Download file is not complete,need to re Download</string>
+    <string name="offline_mode_tip">This is offline mode,so can not browse the device.</string>
+    <string name="read_data">Reading data, please wait for a moment&#8230;</string>
+
+    <!-- Record video flag-->
+    <string name="record_flag">REC</string>
+    <string name="it_is_recording">Recording now, please stop it first</string>
+    <!--Switch mode-->
+    <string name="switch_mode_tips">Please slide screen to switch</string>
+
+    <string name="operation_error">Operation error, please check the device</string>
+
+    <string name="connecting">Connecting&#8230;</string>
+    <string name="modify_wifi_name">Modify Wi-Fi name</string>
+    <string name="modify_wifi_pwd">Modify Wi-Fi password</string>
+    <string name="device_shutdown">Shutdown</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="firmware_upgrade">Firmware upgrade</string>
+    <string name="reject_connection">Device reject connections</string>
+    <string name="request_failure">Request data failed</string>
+    <string name="checking_updating">Check for updates, please wait for a moment</string>
+    <string name="latest_version">This is the latest version</string>
+    <string name="update_failed">Update failed, please check if the network is available and try again.</string>
+    <string name="update_error">Update failed, the file does not exist.</string>
+    <string name="update_success">Update success!</string>
+    <string name="update_content">Update content</string>
+    <string name="update_immediately">Update immediately</string>
+    <string name="update_later">Update later</string>
+    <string name="updating_tip">In the update, please wait!</string>
+    <string name="update_finish">Device is reset, is about to fade APP!</string>
+    <string name="upgrade_firmware_tip">The following operation needs to use the flow, whether to continue?</string>
+    <string name="sdk_version_no_match">Equipment version is too low, please go to [system interface] select [firmware upgrade]</string>
+    <string name="apk_version_no_match">APP version is too low, please go to [system interface] select [check update]</string>
+    <string name="version_info_err">Version information is incorrect, please restart the application!</string>
+    <string name="device_in_usb_mode">Device is in USB mode</string>
+    <string name="current_network">Current network environment:</string>
+    <string name="net_type_no">No network</string>
+    <string name="net_type_2G">2G network</string>
+    <string name="net_type_3G">3G network</string>
+    <string name="net_type_4G">4G network</string>
+    <string name="net_type_wifi">WiFi network</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="clear_cache_success">Clear cache success!</string>
+    <string name="version_info">Version information</string>
+    <string name="application_version">Application version:</string>
+    <string name="firmware_version">Firmware version:</string>
+    <string name="storage_url">storage url：%1$s</string>
+
+    <!-- refersh_listview -->
+    <string name="refresh_listview_header_hint_normal">Drop down</string>
+    <string name="refresh_listview_header_hint_ready">Release refresh data</string>
+    <string name="refresh_listview_header_hint_loading">is loading&#8230;</string>
+    <string name="refresh_listview_header_last_time">Last update time：</string>
+    <string name="refresh_listview_footer_hint_ready">Release more</string>
+    <string name="data_load_finish">Currently is the last page</string>
+
+    <!-- modify Device Message-->
+    <string name="input_new_wifi_name">Input new name</string>
+    <string name="name_empty_error">The current password is empty, please pay attention to information security!</string>
+    <string name="limited_input">Entered too long</string>
+    <string name="restart_to_take_effect">It need to restart device to take effect, are you sure to restart?</string>
+    <string name="input_pwd_error">Should be empty or 8 to 62 English letters or Numbers</string>
+    <string name="password_not_match_confirmation">Password does not match the confirmation</string>
+    <string name="please_input_pwd">Please enter password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="general_settings">General settings</string>
+    <string name="format_sdcard">Format</string>
+    <string name="reset_device">Reset device</string>
+    <string name="ask_if_format">Are you sure to format ?</string>
+    <string name="ask_if_reset">Are you sure to reset device?</string>
+    <string name="format_success">Format success</string>
+    <string name="reset_success">Reset success</string>
+    <string name="pwd_incorrect">Password incorrect</string>
+    <string name="taking_photo">Taking photos</string>
+
+    <!-- playback mode -->
+    <string name="playback_mode">Playback mode</string>
+    <string name="select_err">Please select a file!</string>
+    <string name="year">y</string>
+    <string name="month">mon</string>
+    <string name="day">d</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <string name="second">s</string>
+    <string name="play_video_tip">Confirm playing the video?</string>
+    <string name="no_video_that_postion">No video at that position</string>
+    <string name="play_first">Please play first</string>
+    <string name="rts_mode_hd">HD</string>
+    <string name="rts_mode_sd">SD</string>
+    <string name="rts_mode_fluency">FL</string>
+    <string name="empty_cache">Cache is empty!</string>
+    <string name="change_level">Toggle resolution failed to adjust the current definition!</string>
+    <string name="forced_upgrade_failed">Need to force the upgrade, the server does not upgrade files, please upload the updated file!</string>
+    <string name="buffering">Buffering…</string>
+    <string name="update_firmware_apk_failed">Update failed</string>
+    <string name="recording_err">Is recording, you need to stop recording before you can continue to upgrade, whether the operation?</string>
+    <string name="use_network_tip">There is no available WiFi, whether to use the mobile network upgrade?</string>
+    <string name="net_error">Network error.</string>
+    <string name="recording_failed">Recording failed</string>
+    <string name="ask_to_restart_device_and_app">It will restart device and exit the application to take effect, are you sure?</string>
+    <string name="cancel_update_task">Update has been cancelled</string>
+    <string name="current_zoom_rate">Current zoom:</string>
+    <string name="max_min_zoom_rate">Maximum zoom ratio:</string>
+    <string name="product_not_match">Device type or software type does not match, please re confirm!pyh</string>
+    <string name="not_found_phone_sdcard">Please insert the phone storage card firstly</string>
+    <string name="selected_area_incorrect">The selected area is incorrect</string>
+    <string name="flash_setting">Flash effect setting</string>
+    <string name="video_rear">Rear</string>
+    <string name="video_front">Front</string>
+    <string name="rear_view_plugged">Rear view camera has been plugged</string>
+    <string name="rear_view_unplugged">Rear view camera has been unplugged</string>
+
+    <!-- Modify storage url -->
+    <string name="moving_dir_tip">Modifying the storage location, please wait</string>
+    <string name="delete_dir_tip">Are you sure to delete the folder[%1$s]?</string>
+    <string name="current_path_is_root">The current is the root directory</string>
+    <string name="select_dir_error">The root directory can not be used as a storage location, select an empty folder</string>
+    <string name="select_dir_tip">Please select empty folder</string>
+    <string name="modify_storage_url_failed">To modify the storage location failed, select a different folder</string>
+    <string name="modify_storage_url_success">Modify the storage location successfully</string>
+    <string name="select_dir_path">Select folder</string>
+    <string name="create_dir_success">Create a folder successfully</string>
+    <string name="delete_dir_success">Delete the folder successfully</string>
+    <string name="delete_dir_failed">Delete folder failed</string>
+    <string name="input_content_empty">The input can not be empty</string>
+    <string name="input_content_tip">Please enter the content</string>
+
+    <!--Covert video-->
+    <string name="covert_video_tip">Are you sure you want to transcode the video?</string>
+    <string name="covert_video">Transcoding video</string>
+
+</resources>

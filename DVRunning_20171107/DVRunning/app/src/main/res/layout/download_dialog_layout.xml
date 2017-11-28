@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:padding="10dp"
+    android:background="@drawable/download_dialog_bg">
+
+    <TextView
+        android:id="@+id/load_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="16sp"
+        android:textColor="@color/text_blue"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <View
+        android:id="@+id/load_dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/load_dialog_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <RelativeLayout
+        android:id="@+id/download_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/load_dialog_line">
+        <TextView
+            android:id="@+id/load_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/load_dialog_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <com.jieli.stream.player.ui.lib.NumberProgressBar
+        android:id="@+id/load_dialog_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/download_message"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:id="@+id/load_dialog_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/load_dialog_progress"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/load_dialog_line2"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/dialog_bt_bg"
+        android:text="@string/cancel"/>
+
+</RelativeLayout>

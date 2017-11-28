@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_photo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/device_photo_select_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="3dp"
+        android:lines="1"
+        android:gravity="center"
+        android:textSize="@dimen/text_small"
+        android:textColor="@android:color/black"/>
+
+    <com.jieli.stream.player.ui.lib.RefreshListView
+        android:id="@+id/device_photo_brows_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/device_photo_select_text"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:divider="@android:color/darker_gray"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+</RelativeLayout>

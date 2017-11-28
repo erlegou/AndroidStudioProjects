@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DVRunning</string>
+
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="button_play">Spielen</string>
+
+    <!--Pager titles-->
+    <string name="photo_mode">Fotografieren</string>
+    <string name="video_mode">Video</string>
+    <string name="settings">Einstellungen</string>
+
+    <!-- Dialog-->
+    <string name="return_back">Zurück</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Abgesagt</string>
+    <string name="confirm">Sicher</string>
+    <string name="dialog_tip">Prompt</string>
+    <string name="whether_exit_app">Der ausgang der?</string>
+    <string name="wifi_is_disable">Bitte öffnen sie die Wi - fi</string>
+    <string name="whether_stop_recording">Sicher auf dem video?</string>
+
+    <!--Socket error-->
+    <string name="connect_failed">Die Verbindung nicht</string>
+    <string name="connect_network_failure">Bitte überprüfen sie, ob sie mit den richtigen Netzwerk</string>
+    <string name="connection_timeout">Connection timeout, bitte überprüfen sie die Netzwerk - und verbinden</string>
+    <string name="device_is_disabled_wifi">Wi - fi Gerät bereits geschlossen</string>
+    <string name="offline_browse">Offline - browser</string>
+
+    <!-- Operation to FTP server-->
+    <string name="delete_file">Löschen</string>
+    <string name="rename_file">Umbenennen</string>
+    <string name="download_file">Download</string>
+    <string name="upload_file">Upload</string>
+    <string name="operation_back">Zurück</string>
+    <string name="operation_choice">Wahl</string>
+    <string name="operation">Operation</string>
+    <string name="gallery">album</string>
+    <string name="selected">Gewählt Hat</string>
+    <string name="separator">/</string>
+    <string name="files">Datei</string>
+    <string name="operation_cancel">Abgesagt</string>
+    <string name="loading_data">Download, bitte warten&#8230;</string>
+    <string name="down_load_thumb">Update - schnittstelle, bitte warten&#8230;</string>
+    <string name="notify_title">Prompt</string>
+    <string name="notify_context">Dateien, die nicht existieren, ob loKale, online -?</string>
+    <string name="operation_ok">Sicher</string>
+    <string name="ftp_err_tip">FTP - Fehler auftreten, müssen auch FTP.</string>
+    <string name="select_err">Bitte wählen sie datei!</string>
+    <string name="browse_file_err">Dateien, die nicht existieren, um lokalen herunterladen müssen.</string>
+    <string name="open_file_err">Kann die datei öffnen</string>
+    <string name="all_select">ALL</string>
+    <string name="unprotect">Absagen.</string>
+    <string name="modify_protection">Mehr Schutz</string>
+    <string name="download_file_tip">Ob die datei herunterzuladen?</string>
+    <string name="record_mode">Rekord</string>
+
+    <!-- SDCard status-->
+    <string name="sdcard_online">Die SD - karte online</string>
+    <string name="sdcard_offline">Die SD - karte nicht online</string>
+    <string name="no_card_record_tip">SD - karte ist nicht online, muss auch weiterhin "?</string>
+    <string name="sdcard_error">SD - karte ist nicht online oder die Lagerung IST voll</string>
+    <string name="please_wait">Bitte warten</string>
+
+    <!-- FTP client status-->
+    <string name="login_info_err">Login - Informationen Fehler</string>
+    <string name="ftp_client_exception">FTP - client - anomalie!</string>
+    <string name="connect_ftp_success">FTP - server zu verbinden！</string>
+    <string name="connect_ftp_failed">FTP - server zu verbinden gescheitert！</string>
+    <string name="ftp_socket_err">Netzwerk versagt</string>
+    <string name="open_dir_err">öffnen sie den ordner gescheitert！</string>
+    <string name="upload_file_success">Hochladen von dateien erfolgreich！</string>
+    <string name="upload_file_failed">Das hochladen von dateien！</string>
+    <string name="delete_file_success">Löschen sie die datei erfolgreich！</string>
+    <string name="delete_file_failed">Nicht löschen！</string>
+    <string name="rename_success">Umbenennen - Erfolg！</string>
+    <string name="rename_failed">Umbenennen scheitert！</string>
+    <string name="download_file_err">Download der datei Fehler！</string>
+    <string name="download_file_success">Download - datei erfolgreich！</string>
+    <string name="download_file_failed">Download der datei nicht！</string>
+    <string name="download_file_downloaded">Die datei bereits existiert.</string>
+    <string name="download_task_abort">Datei - download - abgesagt.</string>
+    <string name="download_task_start">Anfangen, eine datei herunterzuladen.</string>
+    <string name="download_thumb_start">Download starten ein Bild</string>
+    <string name="download_thumb_success">Download - ein Bild, Erfolg！</string>
+    <string name="download_thumb_failed">Ein scheitern herunterladen！</string>
+    <string name="delete_local_file_success">Löschen der lokalen datei erfolgreich！</string>
+    <string name="delete_local_file_failed">Löschen der lokalen datei nicht！</string>
+    <string name="file_no_exist">Die datei existiert nicht mehr.</string>
+    <string name="file_download">Dokumente zum download</string>
+    <string name="phone_space_inefficient">Ihr Handy nicht genug speicherkapazität!</string>
+    <string name="phone_space_less">hr Handy nicht genug speicherkapazität 100m！</string>
+    <string name="ftp_data_null">Die datei existiert nicht!</string>
+    <string name="deleting_files">Löschen von dateien&#8230;</string>
+    <string name="device_browse_mode">Geräte</string>
+    <string name="local_browse_mode">LoKale</string>
+    <string name="find_file_err">Die datei wurde nicht gefunden</string>
+    <string name="get_file_err">LESEN sie den inhalt der dokumente Fehler</string>
+    <string name="incomplete_download">Download - datei ist nicht vollständig, die notwendigkeit, erneut herunterladen</string>
+    <string name="offline_mode_tip">Derzeit ist der offline - modus nicht durchsuchen Geräte</string>
+    <string name="read_data">Daten LESEN, warten sie bitte&#8230;</string>
+
+    <!-- Record video flag-->
+    <string name="record_flag">REC</string>
+    <string name="it_is_recording">Ist die aufnahme bitte aufhören</string>
+    <!--Switch mode-->
+    <string name="switch_mode_tips">Bitte den bildschirm zu wechseln</string>
+
+    <string name="operation_error">Fehler, überprüfen sie bitte das Gerät</string>
+    <string name="connecting">Ist die Verbindung&#8230;</string>
+    <string name="modify_wifi_name">Wi-Fi - namen ändern</string>
+    <string name="modify_wifi_pwd">WLAN - passwort ändern</string>
+    <string name="device_shutdown">Abschalten</string>
+    <string name="check_for_update">Nach update</string>
+    <string name="firmware_upgrade">Firmware - upgrade</string>
+    <string name="reject_connection">die ablehnung der Verbindung</string>
+    <string name="request_failure">Bitte Daten scheitern</string>
+    <string name="checking_updating">Nach Updates, einen moment, bitte</string>
+    <string name="latest_version">Version ist die Neueste version</string>
+    <string name="update_failed">Update fehlgeschlagen IST, überprüfen sie die Netzwerk verfügbar IST, versuchen sie es erneut.</string>
+    <string name="update_error">Update fehlgeschlagen, die datei nicht existiert.</string>
+    <string name="update_success">Die aktualisierung erfolgreich</string>
+    <string name="update_content">Aktualisierung der inhalte</string>
+    <string name="update_immediately">Aktualisierung sofort</string>
+    <string name="update_later">Update später</string>
+    <string name="updating_tip">Aktualisiert, bitte warten!</string>
+    <string name="update_finish">Gerät im neustart, den bevorstehenden rückzug app!</string>
+    <string name="upgrade_firmware_tip">Folgende operationen müssen MIT Strom, und weiter?</string>
+    <string name="sdk_version_no_match">Geräte - version zu Niedrig IST, bitte [System]] [firmware - upgrade]</string>
+    <string name="apk_version_no_match">App - version zu Niedrig, bitte [System Interface] [update]</string>
+    <string name="version_info_err">Version Information falsch IST, bitte starten sie die Anwendung.</string>
+    <string name="device_in_usb_mode">Die Maschine War in der USB - modus</string>
+    <string name="current_network">Der aktuellen Netzwerk:</string>
+    <string name="net_type_no">Kein Netz</string>
+    <string name="net_type_2G">2G - netze</string>
+    <string name="net_type_3G">3G - Netz</string>
+    <string name="net_type_4G">4G - netze</string>
+    <string name="net_type_wifi">WiFi网络</string>
+    <string name="clear_cache">Den cache zu löschen</string>
+    <string name="clear_cache_success">Den cache zu löschen!</string>
+    <string name="version_info">Version Informationen</string>
+    <string name="application_version">App - version:</string>
+    <string name="firmware_version">Firmware - version:</string>
+
+    <!-- refersh_listview -->
+    <string name="refresh_listview_header_hint_normal">Die drop - down - aktualisieren</string>
+    <string name="refresh_listview_header_hint_ready">Locker auf die Daten</string>
+    <string name="refresh_listview_header_hint_loading">Geladen wird&#8230;</string>
+    <string name="refresh_listview_header_last_time">Letzte aktualisierung:</string>
+    <!--<string name="refresh_listview_footer_hint_normal">查看更多</string>-->
+    <string name="refresh_listview_footer_hint_ready">die aufnahme von mehr</string>
+    <string name="data_load_finish">Derzeit ist die Letzte Seite</string>
+
+    <!-- modify Device Message-->
+    <string name="input_new_wifi_name">Geben sie einen neuen namen ein</string>
+    <string name="name_empty_error">Die aktuellen passwort Leer, bitte beachten sie, dass Informationen in Sicherheit!</string>
+    <string name="limited_input">Input zu Lange</string>
+    <string name="restart_to_take_effect">Eine wiederaufnahme der Geräte in Kraft treten kann, Sicher starten?</string>
+    <string name="input_pwd_error">Sollte Leer sein Oder 8 bis 63 buchstaben Oder Zahlen?</string>
+    <string name="password_not_match_confirmation">Zwei mal mit der Eingabe nicht</string>
+    <string name="please_input_pwd">Bitte geben sie DAS passwort</string>
+    <string name="confirm_new_password">NeUe passwort bestätigen</string>
+    <string name="new_password">Das neUe passwort</string>
+    <string name="general_settings">Allgemeine einstellungen</string>
+    <string name="flash_setting">Flash Effekt einstellungen</string>
+    <string name="format_sdcard">Formatierung</string>
+    <string name="reset_device">Die wiederherstellung der Fabrik</string>
+    <string name="ask_if_format">Sicher, dass du das format?</string>
+    <string name="ask_if_reset">Sicher, dass du die wiederherstellung der Fabrik?</string>
+    <string name="format_success">Format erfolgreich</string>
+    <string name="reset_success">Die sanierung der Fabrik erfolgreich</string>
+    <string name="pwd_incorrect">Ein passwort ist nicht richtig</string>
+    <string name="taking_photo">Fotos</string>
+
+    <!-- playback mode -->
+    <string name="playback_mode">Playback - modus</string>
+    <string name="year">Y</string>
+    <string name="month">M</string>
+    <string name="day">D</string>
+    <string name="hour">h</string>
+    <string name="minute">min</string>
+    <string name="second">sec</string>
+    <string name="play_video_tip">Wiedergabe der videos bestätigen?</string>
+    <string name="no_video_that_postion">Kein Video an dieser Position</string>
+    <string name="play_first">Bitte zuerst spielen</string>
+    <string name="rts_mode_hd">HD</string>
+    <string name="rts_mode_sd">SD</string>
+    <string name="rts_mode_fluency">FL</string>
+    <string name="empty_cache">Cache IST Leer!</string>
+    <string name="change_level">Verständlichkeit der wechsel scheitern, ANPASSUNG DER derzeitigen Definition!</string>
+    <string name="forced_upgrade_failed">Gezwungen IST, zu aktualisieren, der server nicht update - datei, Laden sie bitte die update - datei.</string>
+    <string name="buffering">Pufferung …</string>
+    <string name="update_firmware_apk_failed">Update fehlgeschlagen</string>
+    <string name="recording_err">Ist die aufnahme des, muss aufhören ", um weiter eskalieren, ob funktionieren?</string>
+    <string name="use_network_tip">Kein Nutzen das MOBILE Internet wifi, ob upgrade?</string>
+    <string name="net_error">Netzwerkfehler.</string>
+    <string name="recording_failed">Aufnahmefehler</string>
+    <string name="ask_to_restart_device_and_app">Es wird Gerät neu starten und beenden Sie die Anwendung zu übernehmen , sind Sie sicher?</string>
+    <string name="product_not_match">Arten von geräten Oder software art passt nicht, bitte erneut bestätigt</string>
+    <string name="cancel_update_task">Update bereits abgesagt</string>
+    <string name="current_zoom_rate">Der zoom - Faktor:</string>
+    <string name="max_min_zoom_rate">Der größte ist der zoom - Faktor IST:</string>
+    <string name="not_found_phone_sdcard">Bitte legen Sie die Telefonspeicherkarte zuerst</string>
+    <string name="selected_area_incorrect">Der ausgewählte Bereich ist falsch</string>
+    <string name="video_front">Vorne</string>
+    <string name="video_rear">Hinten</string>
+    <string name="rear_view_plugged">Rückfahrkamera wurde angeschlossen</string>
+    <string name="rear_view_unplugged">Rückfahrkamera wurde unplugged</string>
+
+    <!-- Modify storage url -->
+    <string name="moving_dir_tip">den Speicherort ändern, bitte warten</string>
+    <string name="delete_dir_tip">OK, um die Datei [%1$s] zu löschen?</string>
+    <string name="current_path_is_root">Das aktuelle Verzeichnis ist die Wurzel</string>
+    <string name="select_dir_error">Nicht das Root-Verzeichnis als Speicherort, wählen Sie einen leeren Ordner</string>
+    <string name="select_dir_tip">Bitte wählen Sie einen leeren Ordner</string>
+    <string name="modify_storage_url_failed">Ändern Sie den Speicherort aus, wählen Sie eine andere Datei</string>
+    <string name="modify_storage_url_success">Ändern Sie den Speicherort erfolgreich</string>
+    <string name="select_dir_path">Ordner auswählen</string>
+    <string name="create_dir_success">Erstellen Sie einen Ordner Erfolg</string>
+    <string name="delete_dir_success">Ordner löschen Erfolg</string>
+    <string name="delete_dir_failed">Ordner löschen fehlgeschlagen</string>
+    <string name="input_content_empty">Die Eingabe kann nicht leer sein</string>
+    <string name="input_content_tip">Bitte geben</string>
+    <string name="storage_url">Speicherpfad: %1$s</string>
+    <string name="covert_video_tip">Bist du sicher, dass du das Video transkodieren möchtest?</string>
+    <string name="covert_video">Transcodieren von Videos</string>
+</resources>

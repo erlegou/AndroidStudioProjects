@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">DVRunning</string>
+
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="button_play">播放</string>
+
+    <!--Pager titles-->
+    <string name="photo_mode">拍照</string>
+    <string name="video_mode">視頻</string>
+    <string name="settings">設定</string>
+    
+    <!-- Dialog-->
+    <string name="return_back">返回</string>
+    <string name="exit">退出</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+    <string name="dialog_tip">提示</string>
+    <string name="whether_exit_app">確定退出？</string>
+    <string name="wifi_is_disable">請打開Wi-Fi</string>
+    <string name="whether_stop_recording">確定停止錄影？</string>
+
+    <!--Socket error-->
+    <string name="connect_failed">連接失敗</string>
+    <string name="connect_network_failure">請檢查是否連接到正確的網絡</string>
+    <string name="connection_timeout">連接超時，請檢查網絡並重新連接</string>
+    <string name="device_is_disabled_wifi">設備已經關閉Wi-Fi</string>
+    <string name="offline_browse">離線瀏覽</string>
+
+    <!-- Operation to FTP server-->
+    <string name="delete_file">删除</string>
+    <string name="rename_file">重命名</string>
+    <string name="download_file">下載</string>
+    <string name="upload_file">上傳</string>
+    <string name="operation_back">後退</string>
+    <string name="operation_choice">選擇</string>
+    <string name="operation">操作</string>
+    <string name="gallery">相册</string>
+    <string name="selected">已選擇</string>
+    <string name="separator">/</string>
+    <string name="files">檔案</string>
+    <string name="operation_cancel">取消</string>
+    <string name="loading_data">下載中，請稍候&#8230;</string>
+    <string name="down_load_thumb">更新界面中，請稍候&#8230;</string>
+    <string name="notify_title">提示</string>
+    <string name="notify_context">檔案不存在本地，是否需要線上觀看？</string>
+    <string name="operation_ok">確定</string>
+    <string name="ftp_err_tip">FTP發生錯誤，需要重連FTP。</string>
+    <string name="select_err">請選擇檔案！</string>
+    <string name="browse_file_err">檔案不存在本地，需要下載才能瀏覽。。</string>
+    <string name="open_file_err">不能打開該檔案</string>
+    <string name="all_select">全選</string>
+    <string name="unprotect">取消保護</string>
+    <string name="modify_protection">新增保護</string>
+    <string name="download_file_tip">是否下載該檔案？</string>
+    <string name="record_mode">錄製</string>
+
+    <!-- SDCard status-->
+    <string name="sdcard_online">SD卡線上</string>
+    <string name="sdcard_offline">SD卡不線上</string>
+    <string name="no_card_record_tip">SD卡不線上，還需要繼續錄製嗎？</string>
+    <string name="sdcard_error">SD卡不線上或存儲空間已滿</string>
+    <string name="please_wait">請稍候</string>
+
+    <!-- FTP client status-->
+    <string name="login_info_err">登入資訊錯誤</string>
+    <string name="ftp_client_exception">FTP用戶端异常！</string>
+    <string name="connect_ftp_success">連接FTP伺服器成功！</string>
+    <string name="connect_ftp_failed">連接FTP伺服器失敗！</string>
+    <string name="ftp_socket_err">網絡連接失敗</string>
+    <string name="open_dir_err">打開資料夾失敗！</string>
+    <string name="upload_file_success">上傳文件成功！</string>
+    <string name="upload_file_failed">上傳文件失敗！</string>
+    <string name="delete_file_success">刪除檔案成功！</string>
+    <string name="delete_file_failed">删除檔案失敗！</string>
+    <string name="rename_success">重命名成功！</string>
+    <string name="rename_failed">重命名失敗！</string>
+    <string name="download_file_err">下載檔案錯誤！</string>
+    <string name="download_file_success">下載檔案成功！</string>
+    <string name="download_file_failed">下載檔案失敗！</string>
+    <string name="download_file_downloaded">檔案已存在。</string>
+    <string name="download_task_abort">檔案下載已取消。</string>
+    <string name="download_task_start">開始下載檔案</string>
+    <string name="download_thumb_start">開始下載縮略圖</string>
+    <string name="download_thumb_success">下載縮略圖成功！</string>
+    <string name="download_thumb_failed">下載縮略圖失敗！</string>
+    <string name="delete_local_file_success">删除本地檔案成功！</string>
+    <string name="delete_local_file_failed">删除本地檔案失敗！</string>
+    <string name="file_no_exist">檔案不存在。</string>
+    <string name="file_download">檔案下載</string>
+    <string name="phone_space_inefficient">你的手機存儲空間不足！</string>
+    <string name="phone_space_less">你的手機存儲空間不足100M！</string>
+    <string name="ftp_data_null">檔案数据不存在!</string>
+    <string name="deleting_files">正在删除檔案&#8230;</string>
+    <string name="device_browse_mode">設備</string>
+    <string name="local_browse_mode">本地</string>
+    <string name="find_file_err">找不到指定的檔案</string>
+    <string name="get_file_err">讀取檔案內容出錯</string>
+    <string name="incomplete_download">下載檔案不完整，需要重新下載</string>
+    <string name="offline_mode_tip">當前是離線模式，不能瀏覽設備</string>
+    <string name="read_data">讀取數據中，請稍等&#8230;</string>
+
+    <!-- Record video flag-->
+    <string name="record_flag">REC</string>
+    <string name="it_is_recording">正在錄製中，請先停止</string>
+    <!--Switch mode-->
+    <string name="switch_mode_tips">請滑動荧幕來切換</string>
+
+    <string name="operation_error">操作錯誤，請檢查設備</string>
+    <string name="connecting">正在連接&#8230;</string>
+    <string name="modify_wifi_name">修改Wi-Fi名稱</string>
+    <string name="modify_wifi_pwd">修改Wi-Fi密碼</string>
+    <string name="device_shutdown">關機</string>
+    <string name="check_for_update">檢查更新</string>
+    <string name="firmware_upgrade">固件升級</string>
+    <string name="reject_connection">設備拒絕連接</string>
+    <string name="request_failure">請求數據失敗</string>
+    <string name="checking_updating">檢查更新中，請稍等</string>
+    <string name="latest_version">版本已是最新版本</string>
+    <string name="update_failed">更新失敗，請檢查網絡是否可用再重試。</string>
+    <string name="update_error">更新失敗，檔案不存在。</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_content">更新内容</string>
+    <string name="update_immediately">立刻更新</string>
+    <string name="update_later">稍後更新</string>
+    <string name="updating_tip">正在更新中，請等待！</string>
+    <string name="update_finish">設備正在重啓，即將退出APP！</string>
+    <string name="upgrade_firmware_tip">以下操作需要使用流量，是否繼續？</string>
+    <string name="sdk_version_no_match">設備版本過低，請到[系統介面]選擇[固件升級]</string>
+    <string name="apk_version_no_match">APP版本過低，請到[系統介面]選擇[檢查更新]</string>
+    <string name="version_info_err">版本資訊有誤，請重啓應用！</string>
+    <string name="device_in_usb_mode">設備正處於USB模式</string>
+    <string name="current_network">當前網路環境：</string>
+    <string name="net_type_no">沒有網絡</string>
+    <string name="net_type_2G">2G網絡</string>
+    <string name="net_type_3G">3G網絡</string>
+    <string name="net_type_4G">4G網絡</string>
+    <string name="net_type_wifi">WiFi網絡</string>
+    <string name="clear_cache">清除緩存</string>
+    <string name="clear_cache_success">清除緩存成功!</string>
+    <string name="version_info">版本資訊</string>
+    <string name="application_version">當前應用版本：</string>
+    <string name="firmware_version">當前固件版本：</string>
+
+    <!-- refersh_listview -->
+    <string name="refresh_listview_header_hint_normal">下拉重繪</string>
+    <string name="refresh_listview_header_hint_ready">鬆開重繪數據</string>
+    <string name="refresh_listview_header_hint_loading">正在加載&#8230;</string>
+    <string name="refresh_listview_header_last_time">上次更新時間：</string>
+    <!--<string name="refresh_listview_footer_hint_normal">查看更多</string>-->
+    <string name="refresh_listview_footer_hint_ready">鬆開載入更多</string>
+    <string name="data_load_finish">當前是最後一頁</string>
+
+    <!-- modify Device Message-->
+    <string name="input_new_wifi_name">輸入新的名字</string>
+    <string name="name_empty_error">當前密碼為空，請注意資訊安全！</string>
+    <string name="limited_input">輸入過長</string>
+    <string name="restart_to_take_effect">需要重啓設備才能生效, 確定重啓嗎？</string>
+    <string name="input_pwd_error">須爲空或者8到63個英文字符或數字</string>
+    <string name="password_not_match_confirmation">兩次輸入不匹配</string>
+    <string name="please_input_pwd">請輸入密碼</string>
+    <string name="confirm_new_password">確認新密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="general_settings">通用設置</string>
+    <string name="format_sdcard">格式化</string>
+    <string name="reset_device">恢復出廠設置</string>
+    <string name="ask_if_format">確定要格式化嗎？</string>
+    <string name="ask_if_reset">確定要恢復出廠設置嗎？</string>
+    <string name="reset_success">恢復出廠成功</string>
+    <string name="format_success">格式化成功</string>
+    <string name="pwd_incorrect">密碼不正確</string>
+    <string name="taking_photo">正在拍照</string>
+
+    <!-- playback mode -->
+    <string name="playback_mode">重播模式</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">時</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="play_video_tip">確認播放該視頻？？</string>
+    <string name="no_video_that_postion">在該位置沒有視頻</string>
+    <string name="play_first">請先播放</string>
+    <string name="rts_mode_hd">高清</string>
+    <string name="rts_mode_sd">標清</string>
+    <string name="rts_mode_fluency">流畅</string>
+    <string name="empty_cache">緩存為空！</string>
+    <string name="change_level">切換清晰度失敗，調整當前清晰度！</string>
+    <string name="forced_upgrade_failed">需要強制陞級，服務器沒有升級檔，請上傳更新檔案！</string>
+    <string name="buffering">正在緩衝…</string>
+    <string name="update_firmware_apk_failed">更新失敗</string>
+    <string name="recording_err">正在錄製中，需要先停止錄製才能繼續陞級，是否操作？</string>
+    <string name="use_network_tip">沒有可用wifi，是否使用移動網絡陞級？</string>
+    <string name="net_error">網絡錯誤</string>
+    <string name="recording_failed">錄製失敗</string>
+    <string name="ask_to_restart_device_and_app">將重啓設備和退出應用才能生效，確定嗎？</string>
+    <string name="product_not_match">設備類型或軟體類型不匹配，請重新確認！</string>
+    <string name="cancel_update_task">更新已被取消</string>
+    <string name="current_zoom_rate">當前縮放倍數：</string>
+    <string name="max_min_zoom_rate">已是最大縮放倍數：</string>
+    <string name="not_found_phone_sdcard">請先插入手機存儲卡</string>
+    <string name="selected_area_incorrect">所選擇區域有誤</string>
+    <string name="flash_setting">閃光效果設定</string>
+    <string name="video_front">前視</string>
+    <string name="video_rear">後視</string>
+    <string name="rear_view_plugged">後視攝像頭已插入</string>
+    <string name="rear_view_unplugged">後視攝像頭已拔出</string>
+
+    <!-- Modify storage url -->
+    <string name="moving_dir_tip">正在修改存儲位置，請稍等</string>
+    <string name="delete_dir_tip">確定刪除文件夾[%1$s]？</string>
+    <string name="current_path_is_root">當前是根目錄</string>
+    <string name="select_dir_error">根目錄不可以作為存儲位置，請選擇空文件夾</string>
+    <string name="select_dir_tip">請選擇空文件夾</string>
+    <string name="modify_storage_url_failed">修改存儲位置失敗，請選擇其他文件夾</string>
+    <string name="modify_storage_url_success">修改存儲位置成功</string>
+    <string name="select_dir_path">選擇文件夾</string>
+    <string name="create_dir_success">創建文件夾成功</string>
+    <string name="delete_dir_success">刪除文件夾成功</string>
+    <string name="delete_dir_failed">刪除文件夾失敗</string>
+    <string name="input_content_empty">輸入內容不能為空</string>
+    <string name="input_content_tip">請輸入內容</string>
+    <string name="storage_url">存储路径：%1$s</string>
+    <string name="covert_video_tip">您確定要轉碼影片嗎？</string>
+    <string name="covert_video">轉碼視頻</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_yellow">#ffce00</color>
+    <color name="half_transparent">#80000000</color>
+    <color name="dark_red">#d56363</color>
+
+    <color name="dialog_bg_white">#f8f8f8</color>
+    <color name="dialog_bg_white_start">#f0f0f0</color>
+    <color name="divider_bg">#d7d7db</color>
+    <color name="button_bg_press">#EAEAEA</color>
+
+    <color name="text_red">#C4161C</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_black">#FF000000</color>
+    <color name="text_blue">#0B95CF</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_press_grap">#a9a9a9</color>
+    <color name="background_green">#45c98d</color>
+    <color name="text_orange">#ff7f27</color>
+    <color name="text_green">#45c98d</color>
+    <color name="text_transparent">#00000000</color>
+
+    <color name="btn_blue">#4A6399</color>
+</resources>

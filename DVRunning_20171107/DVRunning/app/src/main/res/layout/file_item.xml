@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="1dp">
+
+
+    <ImageView
+        android:id="@+id/file_icon_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:maxWidth="120dp"
+        android:maxHeight="90dp"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="1dp"
+        android:layout_alignParentTop="@+id/file_icon_id"
+        android:layout_alignRight="@+id/file_icon_id"
+        android:background="@mipmap/checkbox"/>
+
+    <RelativeLayout
+        android:id="@+id/flag_linear"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:layout_alignBottom="@+id/file_icon_id"
+        android:visibility="visible">
+        <RelativeLayout
+            android:id="@+id/video_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="2dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:background="@mipmap/video_flag_icon"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true">
+            <TextView
+                android:id="@+id/file_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

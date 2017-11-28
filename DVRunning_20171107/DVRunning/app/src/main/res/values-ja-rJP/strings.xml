@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DVRunning</string>
+
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="button_play">放送</string>
+
+    <!--Pager titles-->
+    <string name="photo_mode">写真を撮るの</string>
+    <string name="video_mode">视频</string>
+    <string name="settings">設置</string>
+
+    <!-- Dialog-->
+    <string name="return_back">戻ってきて</string>
+    <string name="exit">退出</string>
+    <string name="cancel">キャンセル</string>
+    <string name="confirm">確定</string>
+    <string name="dialog_tip">提示</string>
+    <string name="whether_exit_app">退陣が確定し?</string>
+    <string name="wifi_is_disable">wi - fiコネクションを开けてください</string>
+    <string name="whether_stop_recording">確定停止ビデオを見ませんか?</string>
+
+    <!--Socket error-->
+    <string name="connect_failed">失败をつなぐ</string>
+    <string name="connect_network_failure">かどうかをチェックしてください)に連結する正確なネット</string>
+    <string name="connection_timeout">インターネット接続時間超過でございますし、再びつながっています</string>
+    <string name="device_is_disabled_wifi">設備が闭锁され,wi - fiだった</string>
+    <string name="offline_browse">オフライン阅覧</string>
+
+    <!-- Operation to FTP server-->
+    <string name="delete_file">削除</string>
+    <string name="rename_file">言い換え</string>
+    <string name="download_file">下载</string>
+    <string name="upload_file">アップロード</string>
+    <string name="operation_back">後退</string>
+    <string name="operation_choice">選択</string>
+    <string name="operation">操作</string>
+    <string name="gallery">アルバム</string>
+    <string name="selected">すでに選択し</string>
+    <string name="separator">/</string>
+    <string name="files">文書</string>
+    <string name="operation_cancel">キャンセル</string>
+    <string name="loading_data">下载のうち、少々お待ちくださいませ&#8230;</string>
+    <string name="down_load_thumb">刷新・インタフェースのうち、少々お待ちくださいませ&#8230;</string>
+    <string name="notify_title">提示</string>
+    <string name="notify_context">ファイルが存在しないことがローカルで、必要なのかどうか在线观看?</string>
+    <string name="operation_ok">確定</string>
+    <string name="ftp_err_tip">ftp間違うことが必要で、重さえftpだった。</string>
+    <string name="select_err">ファイルを選んでください!</string>
+    <string name="browse_file_err">ファイルが存在しないことが必要だが、ダウンロードしなければならないので、当地に访问した。</string>
+    <string name="open_file_err">同文書を开けてできない</string>
+    <string name="all_select">ALL</string>
+    <string name="unprotect">保護を取り消し</string>
+    <string name="modify_protection">保護を増加する</string>
+    <string name="download_file_tip">このファイルをダウンロードするかどうか？</string>
+    <string name="record_mode">収録</string>
+
+    <!-- SDCard status-->
+    <string name="sdcard_online">sdカードのオンライン</string>
+    <string name="sdcard_offline">sdカードのオンライン</string>
+    <string name="no_card_record_tip">SDカードはオンラインで、まだ継続する必要がありますか？</string>
+    <string name="sdcard_error">sdカードのオンラインやメモリー空間がびっしりと埋まっている</string>
+    <string name="please_wait">少々お待ちくださいませ</string>
+
+    <!-- FTP client status-->
+    <string name="login_info_err">情報の間違いに登录されてい</string>
+    <string name="ftp_client_exception">ftpのクライアントの異常な!</string>
+    <string name="connect_ftp_success">連結ftpサーバー成功!</string>
+    <string name="connect_ftp_failed">ftpサーバーをつなぐ失敗しない!</string>
+    <string name="ftp_socket_err">インターネットへのアクセスを失败</string>
+    <string name="open_dir_err">フォルダを开けて失敗しない!</string>
+    <string name="upload_file_success">アップロードファイル成功!</string>
+    <string name="upload_file_failed">アップロードファイル失敗しない!</string>
+    <string name="delete_file_success">ファイル削除成功!</string>
+    <string name="delete_file_failed">ファイル削除失敗しない!</string>
+    <string name="rename_success">言い換え成功!</string>
+    <string name="rename_failed">言い換え失敗しない!</string>
+    <string name="download_file_err">ダウンロードをする誤った!</string>
+    <string name="download_file_success">ダウンロードをする成功!</string>
+    <string name="download_file_failed">ファイルをダウンロードして失敗しない!</string>
+    <string name="download_file_downloaded">ファイルが存在しています。</string>
+    <string name="download_task_abort">ファイルをダウンロードが取り消しになった。</string>
+    <string name="download_task_start">からダウンロードファイル</string>
+    <string name="download_thumb_start">からダウンロード小さな絵だった</string>
+    <string name="download_thumb_success">ダウンロード小さな絵成功!</string>
+    <string name="download_thumb_failed">小さな絵をダウンロードして失敗しない!</string>
+    <string name="delete_local_file_success">当地のファイルを削除する成功!</string>
+    <string name="delete_local_file_failed">当地のファイルを削除する失敗しない!</string>
+    <string name="file_no_exist">文書は存在しません。</string>
+    <string name="file_download">ファイルをダウンロード</string>
+    <string name="phone_space_inefficient">あなたの携帯电话保存スペース不足です!</string>
+    <string name="phone_space_less">あなたの携帯电话保存スペース不足から100メートル!</string>
+    <string name="ftp_data_null">文书データ存在しない!</string>
+    <string name="deleting_files">ファイル削除している&#8230;</string>
+    <string name="device_browse_mode">設備</string>
+    <string name="local_browse_mode">地元</string>
+    <string name="find_file_err">指定された文書が见つからなかった</string>
+    <string name="get_file_err">読み出し文書の内容があり</string>
+    <string name="incomplete_download">ダウンロードファイル不完全に、再ダウンロードできる</string>
+    <string name="offline_mode_tip">当面はオフラインモデルを閲覧できない装備を購入した</string>
+    <string name="read_data">スキャニングデータで、少々お待ちください&#8230;</string>
+
+    <!-- Record video flag-->
+    <string name="record_flag">REC</string>
+    <string name="it_is_recording">、録音している中、先に中断した</string>
+    <!--Switch mode-->
+    <string name="switch_mode_tips">スライドスクリーンにしてください</string>
+
+    <string name="operation_error">操作ミスでございますの設備を持っている</string>
+    <string name="connecting">接続している&#8230;</string>
+    <string name="modify_wifi_name">改正wi - fi名称だ</string>
+    <string name="modify_wifi_pwd">wi - fiパスワードを改正しなければならない</string>
+    <string name="device_shutdown">シャットダウン</string>
+    <string name="check_for_update">検査を更新</string>
+    <string name="firmware_upgrade">ファームウェアのアップグレード</string>
+    <string name="reject_connection">機器接続を拒否し</string>
+    <string name="request_failure">請求データを失败</string>
+    <string name="checking_updating">検査を更新中、少々お待ちください</string>
+    <string name="latest_version">バージョンはすでに最新バージョンだ</string>
+    <string name="update_failed">失败を更新するかどうかをチェックしてくださいネットワーク可用再最初からやり直しだ。</string>
+    <string name="update_error">更新失敗、ファイルが存在しない。</string>
+    <string name="update_success">更新するのに成功した</string>
+    <string name="update_content">更新内容</string>
+    <string name="update_immediately">すぐ更新</string>
+    <string name="update_later">あとで更新</string>
+    <string name="updating_tip">更新中で、待ってください!</string>
+    <string name="update_finish">設備が再開され、から退場app !</string>
+    <string name="upgrade_firmware_tip">以下の操作を使わなければならない流量を継続するか?</string>
+    <string name="sdk_version_no_match">設備バージョンが低く、ぜひ「システム・インタフェース]選択[ファームウェアのアップグレード]</string>
+    <string name="apk_version_no_match">appバージョンが低く、ぜひ「システム・インタフェース][更新]を選んだのは、チェック</string>
+    <string name="version_info_err">バージョン情報は誤り、再起動してください！</string>
+    <string name="device_in_usb_mode">設備はusbモードです</string>
+    <string name="current_network">現在のインターネット環境:</string>
+    <string name="net_type_no">もインターネット</string>
+    <string name="net_type_2G">2 gネットワーク</string>
+    <string name="net_type_3G">3 gネットワーク</string>
+    <string name="net_type_4G">4 gネットワーク</string>
+    <string name="net_type_wifi">wifiネットワーク</string>
+    <string name="clear_cache">清算キャッシュメモリ</string>
+    <string name="clear_cache_success">キャッシュメモリ除去の成功!!</string>
+    <string name="version_info">バージョン情報</string>
+    <string name="application_version">現在の応用バージョン：</string>
+    <string name="firmware_version">ファームウェアバージョン：</string>
+
+    <!-- refersh_listview -->
+    <string name="refresh_listview_header_hint_normal">下で引いて史上最高値を更新し</string>
+    <string name="refresh_listview_header_hint_ready">データを離して史上最高値を更新し</string>
+    <string name="refresh_listview_header_hint_loading">パイロットが進められている&#8230;</string>
+    <string name="refresh_listview_header_last_time">前回の「:</string>
+    <!--<string name="refresh_listview_footer_hint_normal">查看更多</string>-->
+    <string name="refresh_listview_footer_hint_ready">離しに盛り込むことに多く</string>
+    <string name="data_load_finish">当面は最后のページ</string>
+
+    <!-- modify Device Message-->
+    <string name="input_new_wifi_name">新たな名前を入力して</string>
+    <string name="name_empty_error">現在のパスワードは空に、情報セキュリティに注意して下さい！</string>
+    <string name="limited_input">入力が长い</string>
+    <string name="restart_to_take_effect">再開してこそ効力を必要としていた装備を確定再開されなければならないだろうか?</string>
+    <string name="input_pwd_error">順子は空か8から63個の英文のキャラクターや数字だ</string>
+    <string name="password_not_match_confirmation">2度の不一致を入力しなければならない</string>
+    <string name="please_input_pwd">パスワードを入力してください</string>
+    <string name="confirm_new_password">新パスワードを確認し</string>
+    <string name="new_password">新パスワード</string>
+    <string name="general_settings">gmが設置された</string>
+    <string name="format_sdcard">個人収蔵夾</string>
+    <string name="reset_device">回復工場渡に設置され</string>
+    <string name="ask_if_format">個人収蔵夾べきなのだろうか?</string>
+    <string name="ask_if_reset">出荷が設置された確定させなければならないだろうか？</string>
+    <string name="format_success">個人収蔵夾成功</string>
+    <string name="reset_success">回復工場渡成功</string>
+    <string name="pwd_incorrect">暗証番号は正しくない」と</string>
+    <string name="taking_photo">記念撮影をしている</string>
+
+    <!-- playback mode -->
+    <string name="playback_mode">テロップモード</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">時</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="play_video_tip">この動画を确认放送だったのだろうか？</string>
+    <string name="no_video_that_postion">その位置でのビデオ信号なし</string>
+    <string name="play_first">最初に再生してください</string>
+    <string name="rts_mode_hd">HD</string>
+    <string name="rts_mode_sd">SD</string>
+    <string name="rts_mode_fluency">FL</string>
+    <string name="empty_cache">キャッシュを空にして！</string>
+    <string name="change_level">解像度失敗、現在の解像度を調整する！</string>
+    <string name="forced_upgrade_failed">アップグレードアップ、サーバーがアップグレードファイルがないので、更新ファイルをアップロードして下さい！</string>
+    <string name="buffering">バッファリング…</string>
+    <string name="update_firmware_apk_failed">更新の更新</string>
+    <string name="recording_err">中には、まず最初に録画を停止する必要があります、操作を継続する必要がありますか？</string>
+    <string name="use_network_tip">使用wifiない、移動ネットワークのアップグレードを使っているか？</string>
+    <string name="net_error">ネットワークエラー</string>
+    <string name="recording_failed">失敗した記録</string>
+    <string name="ask_to_restart_device_and_app">これは、デバイスを再起動して有効にするには、アプリケーションを終了します。よろしいですか？</string>
+    <string name="product_not_match">機器タイプやソフトタイプは不一緻、再確認してください！</string>
+    <string name="cancel_update_task">更新はキャンセルされている</string>
+    <string name="current_zoom_rate">現在のスケーリング倍数：</string>
+    <string name="max_min_zoom_rate">は最大のズーム倍数です：</string>
+    <string name="not_found_phone_sdcard">まず、携帯電話のメモリカードを挿入してください</string>
+    <string name="selected_area_incorrect">選択した領域が正しくありません</string>
+    <string name="flash_setting">閃光効果設定</string>
+    <string name="video_front">フロント</string>
+    <string name="video_rear">リア</string>
+    <string name="rear_view_unplugged">リアビュー カメラが接続されていません。</string>
+    <string name="rear_view_plugged">リアビュー カメラを接続しました。</string>
+
+    <!-- Modify storage url -->
+    <string name="moving_dir_tip">保管場所の変更、お待ちください</string>
+    <string name="delete_dir_tip">フォルダ[%1$s]キーを削除してよろしいですか？</string>
+    <string name="current_path_is_root">現在のディレクトリがルートであります</string>
+    <string name="select_dir_error">保管場所などではない、ルートディレクトリ、空のフォルダを選択</string>
+    <string name="select_dir_tip">空のフォルダを選択してください</string>
+    <string name="modify_storage_url_failed">別のフォルダを選択して、保管場所に障害が発生した変更</string>
+    <string name="modify_storage_url_success">成功した保管場所を変更します。</string>
+    <string name="select_dir_path">フォルダを選択します</string>
+    <string name="create_dir_success">フォルダの成功を作成します。</string>
+    <string name="delete_dir_success">フォルダの成功を削除します。</string>
+    <string name="delete_dir_failed">削除フォルダに失敗しました</string>
+    <string name="input_content_empty">入力は空にすることはできません</string>
+    <string name="input_content_tip">入力してください</string>
+    <string name="storage_url">ストレージ・パス： %1$s</string>
+    <string name="covert_video_tip">ビデオをトランスコードしてもよろしいですか？</string>
+    <string name="covert_video">トランスコーディングビデオ</string>
+
+</resources>
